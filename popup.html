@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursor Cat Pet</title>
+    <style>
+        body {
+            width: 300px;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            margin: 0;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 18px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .pet-icon {
+            width: 48px;
+            height: 48px;
+            background: #fff;
+            border-radius: 50%;
+            margin: 10px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        .info {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .info h3 {
+            margin: 0 0 10px 0;
+            font-size: 14px;
+            color: #fff;
+        }
+        
+        .info p {
+            margin: 0;
+            font-size: 12px;
+            line-height: 1.4;
+            color: rgba(255,255,255,0.9);
+        }
+        
+        .features {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .features li {
+            background: rgba(255,255,255,0.1);
+            margin: 8px 0;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 12px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .features li::before {
+            content: "🐾";
+            margin-right: 8px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 11px;
+            color: rgba(255,255,255,0.7);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="pet-icon">😺</div>
+        <h1>Cursor Pet</h1>
+    </div>
+    
+    <div class="info">
+        <h3>Seu pet virtual está ativo!</h3>
+        <p>O Pet está brincando na página atual. Ele seguirá seu cursor e interagirá com elementos da página.</p>
+    </div>
+    
+    <ul class="features">
+        <li>Segue o cursor do mouse</li>
+        <li>Procura por palavras específicas</li>
+        <li>Tem energia e fica cansado</li>
+        <li>Dorme quando precisa descansar</li>
+        <li>Clique nele para mostrar amor</li>
+    </ul>
+    
+    <div class="footer">
+        <p>Divirta-se com seu novo companheiro virtual!</p>
+    </div>
+</body>
+</html>

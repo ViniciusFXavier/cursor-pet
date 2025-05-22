@@ -1,0 +1,26 @@
+#cursorpet {
+  z-index: 1000000000;
+  width: 32px;
+  height: 32px;
+  position: fixed;
+  background-image: url('chrome-extension://__MSG_@@extension_id__/cursorpet.webp');
+  image-rendering: pixelated;
+  background-position: -64px -32px;
+  pointer-events: none;
+}
+
+#cursorpet-heart {
+  z-index: 1000000000;
+  width: 24px;
+  height: 24px;
+  position: fixed;
+  pointer-events: none;
+  background-image: url('chrome-extension://__MSG_@@extension_id__/cursorpet-heart.webp');
+  background-size: cover;
+  left: 24px;
+  top: 0px;
+}
+
+#cursorpet-heart.d-none {
+  display: none;
+}

@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Cursor Pet",
+  "version": "1.0",
+  "description": "A fun extension that adds a virtual pet that follows your cursor and interacts with web pages.",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["cursorpet.webp", "cursorpet-heart.webp"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Cursor Pet"
+  },
+  "icons": {
+    "16": "16.png",
+    "48": "48.png",
+    "128": "128.png"
+  }
+}
