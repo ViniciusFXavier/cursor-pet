@@ -1,50 +1,49 @@
-# Cursor Pet - Chrome Extension
+# Cursor Pet - Extensão do Chrome
 
-A fun extension that adds a virtual pet that follows your cursor and interacts with web pages.
+Uma extensão divertida que adiciona um pet virtual que segue seu cursor e interage com as páginas web.
 
-## 📦 Extension Files
+## 📦 Arquivos da Extensão
 
-The extension contains the following files:
+A extensão contém os seguintes arquivos:
 
-- `manifest.json` - Extension settings
-- `content.js` - Main script that controls the pet
-- `styles.css` - Styles for the pet
-- `popup.html` - Extension popup interface
-- `popup.js` - Extension popup script that controls translation
-- `cursorpet.webp` - Character sprite sheet
-- `cursorpet-heart.webp` - Heart sprite
-- `16.png`, `48.png`, `128.png` - Extension icons
+- `manifest.json` - Configurações da extensão
+- `content.js` - Script principal que controla o pet
+- `styles.css` - Estilos para o pet
+- `popup.html` - Interface do popup da extensão
+- `popup.js` - Script do pop-up da extensão que controla a tradução
+- `cursorpet.webp` - Sprite sheet do personagem
+- `cursorpet-heart.webp` - Sprite do coração
+- `16.png`, `48.png`, `128.png` - Ícones da extensão
 
-## 🚀 How to Install
+## 🚀 Como Instalar
 
-### Step 1: Load in Chrome
-1. Open Google Chrome
-2. Type `chrome://extensions/` in the address bar
-3. Enable "Developer Mode" in the top right corner
-4. Click "Load without compression"
-5. Select the `cursor-pet` folder
-6. The extension will be installed and will appear in the list
+### Passo 1: Carregar no Chrome
+1. Abra o Google Chrome
+2. Digite `chrome://extensions/` na barra de endereços
+3. Ative o "Modo do desenvolvedor" no canto superior direito
+4. Clique em "Carregar sem compactação"
+5. Selecione a pasta `cursor-pet`
+6. A extensão será instalada e aparecerá na lista
 
-### Step 2: Use the extension
-1. Visit any web page
-2. The Pet will automatically appear
-3. It will follow your cursor and have unique behaviors:
-- Follows the mouse when it is far away
-- Searches for words and scratches them
-- Gets tired and sleeps
-- Scratches when it is itchy
-- Makes random movements occasionally
+### Passo 2: Usar a extensão
+1. Visite qualquer página web
+2. O Pet aparecerá automaticamente
+3. Ele seguirá seu cursor e terá comportamentos únicos:
+   - Segue o mouse quando está longe
+   - Procura por palavras e arranha elas
+   - Fica cansado e dorme
+   - Se coça quando tem coceira
+   - Faz movimentos aleatórios ocasionalmente
 
-### Step 4: Interact with the pet
-- **Movement**: The pet automatically follows your cursor
-- **Click**: Click on the pet to show a heart
-- **Behaviors**: The pet has energy, gets tired, sleeps and wakes up
-- **Search**: It searches for and interacts with certain words on the page
+### Passo 4: Interagir com o pet
+- **Movimento**: O pet segue seu cursor automaticamente
+- **Clique**: Clique no pet para mostrar um coração
+- **Comportamentos**: O pet tem energia, fica cansado, dorme e acorda
+- **Busca**: Ele procura e interage com certas palavras na página
 
-## 🎮 Pet Features
+## 🎮 Recursos do Pet
 
-- **Energy System**: The pet loses energy over time and needs to sleep
-- **Itch System**: It develops itching and scratches itself periodically
-- **Word Detection**: Look for words and scratch them
-- **Animations**: Multiple animations for different directions and actions
-- **Interaction**: Responds to clicks showing love
+- **Sistema de Energia**: O pet perde energia com o tempo e precisa dormir
+- **Sistema de Coceira**: Desenvolve coceira e se coça periodicamente
+- **Detecção de Palavras**: Procure por palavras e arranha elas
+- **Animações**: Múltiplas animações para diferentes direções e ações
