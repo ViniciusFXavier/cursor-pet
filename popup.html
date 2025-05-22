@@ -85,29 +85,51 @@
             font-size: 11px;
             color: rgba(255,255,255,0.7);
         }
+        
+        .language-switch {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: rgba(255,255,255,0.2);
+            border: none;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .language-switch:hover {
+            background: rgba(255,255,255,0.3);
+        }
     </style>
 </head>
 <body>
+    <button class="language-switch">EN</button>
+    
     <div class="header">
         <div class="pet-icon">😺</div>
-        <h1>Cursor Pet</h1>
+        <h1 data-i18n="title">Cursor Pet</h1>
     </div>
     
     <div class="info">
-        <h3>Seu pet virtual está ativo!</h3>
-        <p>O Pet está brincando na página atual. Ele seguirá seu cursor e interagirá com elementos da página.</p>
+        <h3 data-i18n="active">Seu pet virtual está ativo!</h3>
+        <p data-i18n="description">O Pet está brincando na página atual. Ele seguirá seu cursor e interagirá com elementos da página.</p>
     </div>
     
     <ul class="features">
-        <li>Segue o cursor do mouse</li>
-        <li>Procura por palavras específicas</li>
-        <li>Tem energia e fica cansado</li>
-        <li>Dorme quando precisa descansar</li>
-        <li>Clique nele para mostrar amor</li>
+        <li data-i18n="feature1">Segue o cursor do mouse</li>
+        <li data-i18n="feature2">Procure por palavras e arranha elas</li>
+        <li data-i18n="feature3">Tem energia e fica cansado</li>
+        <li data-i18n="feature4">Dorme quando precisa descansar</li>
+        <li data-i18n="feature5">Clique nele para mostrar amor</li>
     </ul>
     
     <div class="footer">
-        <p>Divirta-se com seu novo companheiro virtual!</p>
+        <p data-i18n="footer">Divirta-se com seu novo companheiro virtual!</p>
     </div>
+
+    <script src="popup.js"></script>
 </body>
 </html>

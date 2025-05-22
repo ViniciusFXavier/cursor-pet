@@ -10,6 +10,7 @@ A extensão contém os seguintes arquivos:
 - `content.js` - Script principal que controla o pet
 - `styles.css` - Estilos para o pet
 - `popup.html` - Interface do popup da extensão
+- `popup.js` - Script do pop-up da extensão que controla a tradução
 - `cursorpet.webp` - Sprite sheet do personagem
 - `cursorpet-heart.webp` - Sprite do coração
 - `16.png`, `48.png`, `128.png` - Ícones da extensão
@@ -44,6 +45,6 @@ A extensão contém os seguintes arquivos:
 
 - **Sistema de Energia**: O pet perde energia com o tempo e precisa dormir
 - **Sistema de Coceira**: Desenvolve coceira e se coça periodicamente
-- **Detecção de Palavras**: Procura e interage com palavras
+- **Detecção de Palavras**: Procure por palavras e arranha elas
 - **Animações**: Múltiplas animações para diferentes direções e ações
 - **Interação**: Responde a cliques mostrando amor

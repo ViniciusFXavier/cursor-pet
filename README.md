@@ -10,6 +10,7 @@ The extension contains the following files:
 - `content.js` - Main script that controls the pet
 - `styles.css` - Styles for the pet
 - `popup.html` - Extension popup interface
+- `popup.js` - Extension popup script that controls translation
 - `cursorpet.webp` - Character sprite sheet
 - `cursorpet-heart.webp` - Heart sprite
 - `16.png`, `48.png`, `128.png` - Extension icons
@@ -44,6 +45,6 @@ The extension contains the following files:
 
 - **Energy System**: The pet loses energy over time and needs to sleep
 - **Itch System**: It develops itching and scratches itself periodically
-- **Word Detection**: Searches for and interacts with words
+- **Word Detection**: Look for words and scratch them
 - **Animations**: Multiple animations for different directions and actions
 - **Interaction**: Responds to clicks showing love
