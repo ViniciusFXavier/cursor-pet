@@ -428,7 +428,7 @@
         heartEl.classList.add("d-none");
       }, 2000);
     }
-    cursorpetEl.style.pointerEvents = "auto";
+    cursorpetEl.style.pointerEvents = "none";
   });
 
   document.addEventListener(
